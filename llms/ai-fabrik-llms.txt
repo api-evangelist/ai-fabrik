@@ -1,0 +1,51 @@
+# AI Fabrik
+
+> AI Fabrik is an edge inference delivery network — a "modular token factory" that
+> deconstructs the traditional data center model and rebuilds every layer for real-time
+> AI, delivering distributed inference close to users and cloud with sub-20ms latency to
+> tier 1 and tier 2 markets. Incubated inside Gruve and led by founder Tarun Raisoni with
+> Swati Deshpande and Tanuj Mohan, the company is deploying five initial production sites
+> with 6,000+ B300 GPUs in 2026, backed by Mayfield, Xora (Temasek), Acclimate Ventures
+> and Cisco Investments.
+
+> Status for agents: AI Fabrik publishes NO public API, NO developer portal, NO
+> machine-readable specification, and NO pricing. As of 2026-08-10 the entire public
+> surface is a ten-page marketing site plus a blog. The commercial and technical entry
+> point is a contact form with a stated 24-hour response window. This file is generated
+> by API Evangelist from the public site; it is not published by AI Fabrik.
+
+## Company
+
+- [AI Fabrik](https://aifabrik.com): Homepage — who we are, what we build, site map, contact
+- [Insights](https://aifabrik.com/insights/): Blog and video index
+- [Insights RSS](https://aifabrik.com/feed/): Feed for the insights stream
+- [Join us](https://aifabrik.com/join-us/): Careers
+- [Open roles](https://aifabrik.com/job-openings/): Job listings
+- [Contact](https://aifabrik.com/contact/): The only intake channel — no self-serve signup
+- [LinkedIn](https://www.linkedin.com/company/aifabrik/): Company updates
+
+## Legal
+
+- [Terms of Use](https://aifabrik.com/terms-of-use/)
+- [Privacy Policy](https://aifabrik.com/privacy-policy/)
+
+## Writing
+
+- [Why GPU access alone does not guarantee AI success](https://aifabrik.com/blog/why-gpu-access-alone-does-not-guarantee-ai-success/)
+- [The new unit of AI: why GTC 2026 changed what we should be measuring](https://aifabrik.com/blog/the-new-unit-of-ai-why-gtc-2026-changed-what-we-should-be-measuring/)
+- [Tarun Raisoni on Bloomberg: AI Data Centers — Why Infrastructure Is the Real Bottleneck](https://aifabrik.com/videos/tarun-raisoni-on-bloomberg-ai-data-centers-why-infrastructure-is-the-real-bottleneck/)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/ai-fabrik/refs/heads/main/apis.yml): The APIs.json profile for this company
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/ai-fabrik/refs/heads/main/security/ai-fabrik-domain-security.yml): TLS, HSTS, DNSSEC, CAA, SPF, DMARC
+- [.well-known probe](https://raw.githubusercontent.com/api-evangelist/ai-fabrik/refs/heads/main/well-known/ai-fabrik-well-known.yml): Verified absence — 0 of 7 discovery documents served
+- [Plans](https://raw.githubusercontent.com/api-evangelist/ai-fabrik/refs/heads/main/plans/ai-fabrik-plans-pricing.yml): 0 published plans; contact-sales only
+- [Rate limits](https://raw.githubusercontent.com/api-evangelist/ai-fabrik/refs/heads/main/rate-limits/ai-fabrik-rate-limits.yml): 0 published limits
+
+## Not available
+
+- No OpenAPI, AsyncAPI, GraphQL SDL, JSON Schema or Postman collection
+- No MCP server, no A2A agent card, no /llms.txt served by the provider
+- No SDKs on npm, PyPI, RubyGems, crates.io, NuGet, Maven Central or pkg.go.dev
+- No status page, changelog, deprecation policy, security.txt or trust center

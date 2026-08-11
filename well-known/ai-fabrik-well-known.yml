@@ -1,0 +1,60 @@
+generated: '2026-08-10'
+method: probed
+source: live HTTP probes of the aifabrik.com host
+note: >-
+  Every /.well-known/ path probed returned HTTP 404 (the site's WordPress 404
+  template, text/html, 28873 bytes). No discovery document is served. This file
+  records a verified ABSENCE — no WellKnown or SecurityTxt pointer is wired into
+  apis.yml, because the pointer would assert that the provider serves that
+  surface. There is no API host to probe: api., docs., developer., app. and
+  console. under aifabrik.com do not resolve in DNS.
+hosts_probed:
+- host: https://aifabrik.com
+  resolves: true
+- host: https://api.aifabrik.com
+  resolves: false
+  note: NXDOMAIN
+- host: https://docs.aifabrik.com
+  resolves: false
+  note: NXDOMAIN
+- host: https://developer.aifabrik.com
+  resolves: false
+  note: NXDOMAIN
+- host: https://app.aifabrik.com
+  resolves: false
+  note: NXDOMAIN
+- host: https://console.aifabrik.com
+  resolves: false
+  note: NXDOMAIN
+host: https://aifabrik.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+adjacent_probes:
+- path: /llms.txt
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /swagger.json
+  status: 404
+- path: /robots.txt
+  status: 200
+  note: Yoast-generated; `Disallow:` empty — nothing is disallowed to crawlers
+- path: /sitemap.xml
+  status: 200
+  note: redirects to /sitemap_index.xml (Yoast); 10 pages total, none developer-facing
+x-evidence:
+  fetched: '2026-08-10'
+  documents_found: 0

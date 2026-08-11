@@ -1,0 +1,23 @@
+generated: '2026-08-10'
+method: searched
+source: https://aifabrik.com/
+plan_count: 0
+pricing_model: contact-sales
+note: >-
+  AI Fabrik publishes no pricing page and no plans. https://aifabrik.com/pricing
+  returns 404, and the pricing/plans word does not appear anywhere on the site.
+  The entire commercial motion is a contact form ("Every conversation starts with
+  your architecture") with a stated 24-hour response window. This is an honest
+  zero, not a missing harvest: the company is pre-revenue infrastructure with its
+  first of five production sites coming online in July 2026, so there is no
+  published unit price, quota, or overage to record.
+plans: []
+evidence:
+- url: https://aifabrik.com/pricing
+  status: 404
+- url: https://aifabrik.com/
+  status: 200
+  note: homepage; no pricing nav item, no plan tiers
+- url: https://aifabrik.com/contact/
+  status: 200
+  note: the actual commercial entry point

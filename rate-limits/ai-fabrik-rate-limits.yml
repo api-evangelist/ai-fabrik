@@ -1,0 +1,20 @@
+generated: '2026-08-10'
+method: searched
+source: https://aifabrik.com/
+limit_count: 0
+note: >-
+  No rate limits are published because no API is published. AI Fabrik has no
+  developer portal, no API reference, and no API host — /docs, /developers and
+  /api all return 404 on aifabrik.com, and api./docs./developer. subdomains do
+  not resolve. There is no documented quota, window, burst, response header
+  (X-RateLimit-*, RateLimit-*, Retry-After) or exhaustion status code to record.
+  An honest zero, recorded so the absence is countable rather than silent.
+limits: []
+headers: []
+evidence:
+- url: https://aifabrik.com/docs
+  status: 404
+- url: https://aifabrik.com/developers
+  status: 404
+- url: https://aifabrik.com/api
+  status: 404

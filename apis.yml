@@ -31,7 +31,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-08-10'
 tags:
 - Company
 - Artificial Intelligence
@@ -52,8 +52,12 @@ common:
   url: https://aifabrik.com
 - type: Blog
   url: https://aifabrik.com/insights/
+- type: BlogRSS
+  url: https://aifabrik.com/feed/
 - type: Support
   url: https://aifabrik.com/contact/
+- type: Careers
+  url: https://aifabrik.com/job-openings/
 - type: TermsOfService
   url: https://aifabrik.com/terms-of-use/
 - type: PrivacyPolicy
@@ -62,8 +66,33 @@ common:
   url: https://www.linkedin.com/company/aifabrik/
 - type: DomainSecurity
   url: security/ai-fabrik-domain-security.yml
+- type: LLMsTxt
+  url: llms/ai-fabrik-llms.txt
 x-enrichment:
-  date: '2026-07-19'
-  status: backfilled
+  date: '2026-08-10'
+  status: minimal
+  artifacts_added: 4
   pass: local-v1
-  note: backfilled from .gitignore signal + verified work evidence
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    AI Fabrik is a pre-launch edge-inference infrastructure company whose entire
+    public surface is a ten-page WordPress marketing site — /docs, /developers,
+    /api and /pricing all return 404, no api./docs./developer./app./console.
+    subdomain resolves in DNS, and the only intake is a contact form, with the
+    first of five production sites not due online until July 2026.
+  evidence:
+  - url: https://aifabrik.com/developers
+    status: 404
+  - url: https://aifabrik.com/docs
+    status: 404
+  - url: https://aifabrik.com/pricing
+    status: 404
+  - url: https://aifabrik.com/llms.txt
+    status: 404
+  - url: https://aifabrik.com/.well-known/agent-card.json
+    status: 404
+  - url: https://aifabrik.com/page-sitemap.xml
+    status: 200
+  checked: '2026-08-10'
